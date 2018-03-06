@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing..NO'
             }
         }
         stage('Deploy to prod') {
